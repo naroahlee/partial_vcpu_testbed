@@ -34,7 +34,7 @@ fi
 
 
 Durms=`head -n 2 ${EXP_CONF} | tail -n 1`
-Dur=`echo "${Durms} / 1000 + 5" | bc`
+Dur=`echo "${Durms} / 1000000 + 5" | bc`
 
 
 # ====================== SERVER ======================
