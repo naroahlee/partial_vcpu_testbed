@@ -12,3 +12,4 @@ cd ${WORKING_DIR}
 rm -rf ./bin/*
 rm -rf ./data/*
 rm -rf ./figure/*
+rm -rf ./dump.rdb
