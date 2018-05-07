@@ -22,3 +22,5 @@ EXP04: for 5 set different utilization [0.1:0.2:0.9]
 		for each run, run for 10s + sleep(5) (15s)
 	In total, run for 5x20x40x15 = 60000s
 	For each day, we have 24x3600 = 86400s
+
+EXP05: The sporadic version for Exp01

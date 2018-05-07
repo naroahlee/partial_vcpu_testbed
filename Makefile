@@ -3,7 +3,7 @@
 all:
 	@echo "Usage()"
 
-clean: clean_exp01 clean_exp02 clean_exp03 clean_exp04
+clean: clean_exp01 clean_exp02 clean_exp03 clean_exp04 clean_exp05
 
 Exp01:
 	./EXP01/Exp01.sh
@@ -22,3 +22,6 @@ clean_exp03:
 
 clean_exp04:
 	./EXP04/clean.sh
+
+clean_exp05:
+	./EXP05/clean.sh

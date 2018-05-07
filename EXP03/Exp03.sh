@@ -11,13 +11,13 @@ TestRun=20
 cd ${WORKING_DIR}
 
 # ================== Clean Up ================
-#rm -rf ./data/*
+rm -rf ./data/*
 
 # ================== Run =====================
 
 for((i=0;i<${TestRun}; i++))
 {
-	#./Run_Once.sh FP Full    ${i}
+#	./Run_Once.sh FP Full    ${i}
 	./Run_Once.sh FP Partial ${i}
 }
 
